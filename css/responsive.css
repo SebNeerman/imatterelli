@@ -43,10 +43,23 @@
         max-width: 720px;
     }
     
+    .logo-container a svg {
+		margin: 10px 0 30px 0;
+    	width: 120px;
+	}
+	.nav-right {
+margin-top: -7px;
+}
+    
     .hero-title {
         font-size:3.2rem;
     }
     
+	.pasta-types h3, 
+	.class-column h3,
+	.hours h3 {
+		font-size: 1.4rem;
+	}    
     .content-wrapper {
         flex-direction: column;
     }
@@ -69,7 +82,7 @@
     }
     
     .class-details {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: var(--space-md);
     }
     
@@ -107,6 +120,7 @@
     
     .mobile-menu-btn {
         display: block;
+        margin-top: -20px;
     }
     
     .hero-title {
@@ -116,7 +130,7 @@
     }
     
     .pasta-list {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .order-cta {
@@ -126,6 +140,10 @@
     
     .order-cta .btn {
         width: 100%;
+    }
+    
+    .map-container {
+        flex: none;
     }
 }
 
@@ -145,7 +163,7 @@
     }
     
     .section-description {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     
     .pasta-image, .cooking-image {
@@ -154,6 +172,10 @@
     
     .contact-item {
         flex-direction: column;
+    }
+    
+    .map-container {
+        flex: none;
     }
 }
 

@@ -1,9 +1,9 @@
 /* Base styles and variables */
 :root {
     /* Color system */
-    --primary-color: #884700;  /* Dark amber */
+    --primary-color: #884700;  	/* Dark amber */
     --secondary-color: #F2AE00; /* Amber yellow */
-    --green: #79BB00;   /* Olive green */
+    --green: #79BB00;   		/* Olive green */
     --yellow-pasta: #F2AE00;
     --background-color: #000000; /* Black */
     --text-color: #ffffff;     /* White */
@@ -74,7 +74,7 @@ h1, h2, h3 {
 .class-column h3,
 .hours h3 {
     font-family: var(--font-body);
-    font-weight: bold;
+    font-weight: normal;
     color: var(--green);
     font-size: 1.8rem;
 	margin-top: 3rem;
@@ -113,8 +113,8 @@ ul {
 
 /* Buttons */
 .btn {
-    display: inline-block;
-    padding: var(--space-sm) var(--space-lg);
+    display: block;
+    padding: var(--space-xs) var(--space-lg);
     border-radius: var(--border-radius);
     font-weight: bold;
     text-align: center;
@@ -224,7 +224,8 @@ ul {
     align-items: center;
 }
 
-/* .header.transparent  */.logo-container a svg {
+/* .header.transparent  */
+.logo-container a svg {
 	margin: 10px 0 30px 0;
     width: 200px;
     transition: transform var(--transition-speed) ease;
@@ -341,10 +342,13 @@ ul {
 }
 
 .mobile-nav-link {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
+    line-height: 2;
     margin: var(--space-sm) 0;
-    color: var(--text-color);
-    font-weight: bold;
+    color: var(--yellow-pasta);
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+    font-weight: normal;
 }
 
 .mobile-language-switch {
@@ -358,14 +362,14 @@ ul {
     border: none;
     cursor: pointer;
     color: var(--neutral-600);
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.2rem;
     transition: color var(--transition-speed) ease;
     padding: 0 var(--space-xs);
 }
 
 .mobile-lang-btn.active {
-    color: var(--primary-color);
+    color: var(--green);
 }
 
 /* Hero Section */
@@ -465,6 +469,7 @@ ul {
 
 .text-content {
     flex: 1;
+    margin-bottom: auto;
 }
 
 /* Pasta Section */
@@ -582,7 +587,7 @@ ul {
     margin-bottom: var(--space-xs);
 }
 
-.hours ul li span {
+.float-right {
 	float:right;
 }
 

@@ -45,15 +45,25 @@
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-          "opens": "09:00",
-          "closes": "18:00"
+          "dayOfWeek": ["Tuesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "14:00",
+          "opens": "17:00",
+          "closes": "19:30"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Saturday",
-          "opens": "09:00",
-          "closes": "13:00"
+          "opens": "08:00",
+          "closes": "14:00",
+          "opens": "17:00",
+          "closes": "19:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "08:00",
+          "closes": "14:00"
         }
       ],
       "hasOfferCatalog": {
@@ -112,7 +122,7 @@
                 </div>
                 <div class="nav-right">
                     <ul class="nav-links">
-                        <li><a href="#location" class="nav-link" data-it="Dove Siamo" data-en="Where We Are">Dove Siamo</a></li>
+                        <li><a href="#location" class="nav-link" data-it="Venite" data-en="Visit Us">Venite</a></li>
                         <li><a href="#contact" class="nav-link" data-it="Contatti" data-en="Contact">Contatti</a></li>
                         <li class="language-switch">
                             <button class="lang-btn active" data-lang="it">IT</button>
@@ -134,7 +144,7 @@
         <ul class="mobile-nav-links">
             <li><a href="#pasta-fresca" class="mobile-nav-link" data-it="La Nostra Pasta" data-en="Our Pasta">La Nostra Pasta</a></li>
             <li><a href="#cooking-classes" class="mobile-nav-link" data-it="Corsi di Cucina" data-en="Cooking Classes">Corsi di Cucina</a></li>
-            <li><a href="#location" class="mobile-nav-link" data-it="Venite" data-en="Come Visit">Venite</a></li>
+            <li><a href="#location" class="mobile-nav-link" data-it="Vistitateci" data-en="Come Visit">Vistitateci</a></li>
             <li><a href="#contact" class="mobile-nav-link" data-it="Contatti" data-en="Contact">Contatti</a></li>
             <li class="mobile-language-switch">
                 <button class="mobile-lang-btn active" data-lang="it">IT</button>
@@ -207,7 +217,7 @@
                     </p>
                     <div class="class-details">
                         <div class="class-column">
-                            <h3 data-it="Cosa imparerai" data-en="What you'll learn">Cosa imparerai</h3>
+                            <h3 data-it="Imparerete a" data-en="You'll learn">Imparerete a</h3>
                             <ul>
                                 <li data-it="Tecniche di base per la pasta" data-en="Basic pasta techniques">Tecniche di base per la pasta</li>
                                 <li data-it="Creare diversi formati" data-en="Creating different shapes">Creare diversi formati</li>
@@ -244,33 +254,43 @@
                     <div class="hours">
                         <h3 data-it="Orari di apertura" data-en="Opening hours">Orari di Apertura</h3>
                         <ul>
-                            <li data-it="Lunedì: Chiuso" data-en="Monday: Closed">
-                            	Lunedì:<span>Chiuso</span>
+                            <li>
+                            	<span data-it="Lunedì" data-en="Monday">Lunedì:</span>
+                            	<span class="float-right" data-it="Chiuso" data-en="Closed">Chiuso</span>
                             </li>	                            	
-                            <li data-it="Martedì 8:00 - 14:00 | 17:00 – 19:30" data-en="Tuesday: 8am - 2pm | 5pm - 7:30pm">
-                            	Martedì: <span>8:00 - 14:00 | 17:00 – 19:30</span>
+                            <li>
+                            	<span data-it="Martedì" data-en="Tuesday">Martedì:</span> 
+                            	<span class="float-right" data-it="8:00 - 14:00 | 17:00 – 19:30" data-en="8am - 2pm | 5pm - 7:30pm">8:00 - 14:00 | 17:00 – 19:30</span>
                             </li>
-                            <li data-it="Mercoledì: Chiuso" data-en="Wednesday: Closed">
-                            	Mercoledì: <span>Chiuso</span>
+                            <li>
+                            	<span data-it="Mercoledì" data-en="Wednesday">Mercoledì:</span>
+                            	<span class="float-right" data-it="Chiuso" data-en="Closed">Chiuso</span>
+                            </li>	
+                            <li>
+                            	<span data-it="Giovedì" data-en="Thursday">Giovedì:</span> 
+                            	<span class="float-right" data-it="8:00 - 14:00 | 17:00 – 19:30" data-en="8am - 2pm | 5pm - 7:30pm">8:00 - 14:00 | 17:00 – 19:30</span>                            	
                             </li>
-                            <li data-it="Giovedì 8:00 - 14:00 | 17:00 – 19:30" data-en="Thursday: 8am - 2pm | 5pm - 7:30pm">
-                            	Giovedì: <span>8:00 - 14:00 | 17:00 – 19:30</span>
+                            <li>
+                            	<span data-it="Venerdì" data-en="Friday">Venerdì:</span> 
+                            	<span class="float-right" data-it="8:00 - 14:00 | 17:00 – 19:30" data-en="8am - 2pm | 5pm - 7:30pm">8:00 - 14:00 | 17:00 – 19:30</span>                            	
                             </li>
-                            <li data-it="Venerdì 8:00 - 14:00 | 17:00 – 19:30" data-en="Friday: 8am - 2pm | 5pm - 7:30pm">
-                            	Venerdì: <span>8:00 - 14:00 | 17:00 – 19:30</span>
-                            </li>
-                            <li data-it="Sabato 8:00 - 14:00 | 17:00 – 19:30" data-en="Saturday: 8am - 2pm | 5pm - 7:30pm">
-                            	Sabato: <span>8:00 - 14:00 | 17:00 – 19:30</span>
+                            <li>
+                            	<span data-it="Sabato" data-en="Saturday">Sabato:</span> 
+                            	<span class="float-right" data-it="8:00 - 14:00 | 17:00 – 19:30" data-en="8am - 2pm | 5pm - 7:30pm">8:00 - 14:00 | 17:00 – 19:30</span>                            	
                             </li>
         
-                            <li data-it="Domenica: 8:00 - 13:00" data-en="Sunday: 8am - 1pm">
-                            	Domenica: <span>8:00 - 13:00</span>
+                            <li>
+                            	<span data-it="Domenica" data-en="Sunday">Domenica:</span> 
+                            	<span class="float-right" data-it="8:00 - 13:00" data-en="8am - 1pm">8:00 - 13:00</span>
                             </li>
                         </ul>
                     </div>
                     <div class="address">
                         <p>Via T. Taddeini 64, Montespertoli (FI)</p>
-                        <a href="https://maps.app.goo.gl/P51wys5Y7DmCg1c79" target="_blank" class="map-link" data-it="Visualizza su Google Maps" data-en="View Google Maps">Visualizza su Google Maps</a>
+                        <a class="btn secondary-btn map-link" 
+                        	href="https://maps.app.goo.gl/P51wys5Y7DmCg1c79" 
+                        	target="_blank" 
+                        	data-it="Visualizza su Google Maps" data-en="View Google Maps">Visualizza su Google Maps</a>
                     </div>
                 </div>
                 <div class="map-container">
