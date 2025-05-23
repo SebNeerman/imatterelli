@@ -7,7 +7,10 @@ const languageBtns = document.querySelectorAll('.lang-btn');
 const mobileLangBtns = document.querySelectorAll('.mobile-lang-btn');
 const sections = document.querySelectorAll('.section');
 const copyrightYear = document.querySelector('.copyright-year');
+<<<<<<< HEAD
 
+=======
+>>>>>>> cb444cc4e032ad79241c4ba431c232224b72ca07
 
 // Current language (default: Italian)
 let currentLang = 'it';
@@ -184,6 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initEventListeners();
     setupSmoothScrolling();
     animateOnScroll();
+    updateCopyrightYear();
     
     // Set initial language
     switchLanguage('it');
