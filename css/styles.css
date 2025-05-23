@@ -3,8 +3,9 @@
     /* Color system */
     --primary-color: #884700;  	/* Dark amber */
     --secondary-color: #F2AE00; /* Amber yellow */
-    --green: #79BB00;   		/* Olive green */
-    --yellow-pasta: #F2AE00;
+    --green: #79BB00;   		/* Green */
+    --hero: #FFDA1A;		/* Hero green */
+    --yellow-pasta: #F2AE00;	/* Yellow pasta */
     --background-color: #000000; /* Black */
     --text-color: #ffffff;     /* White */
     --light-text: #FFFFFF;     /* White text */
@@ -382,7 +383,7 @@ ul {
     justify-content: center;
     align-items: center;
     position: relative;
-    color: var(--light-text);
+    color: var(--hero);
     padding-top: var(--header-height);
 }
 
@@ -409,7 +410,7 @@ ul {
     font-size: 3rem;
     margin-bottom: var(--space-lg);
     line-height: 1.8;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .hero-cta {
