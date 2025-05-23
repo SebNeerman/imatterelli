@@ -1,0 +1,172 @@
+/* Responsive Styles */
+
+/* Large Screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    .container {
+        padding: 0 var(--space-lg);
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+    }
+}
+
+/* Medium Screens (992px to 1199px) */
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    .section-title {
+        font-size: 2.3rem;
+    }
+    
+    .content-wrapper {
+        gap: var(--space-lg);
+    }
+}
+
+/* Small Screens (768px to 991px) */
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .content-wrapper.reversed {
+        flex-direction: column;
+    }
+    
+    .text-content {
+        margin-bottom: var(--space-lg);
+    }
+    
+    .pasta-image, .cooking-image {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .pasta-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .class-details {
+        flex-direction: column;
+        gap: var(--space-md);
+    }
+    
+    .location-wrapper {
+        flex-direction: column;
+    }
+    
+    .address-container {
+        margin-bottom: var(--space-lg);
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+    
+    .footer-logo {
+        margin-bottom: var(--space-md);
+    }
+    
+    .footer-info {
+        margin-bottom: var(--space-md);
+    }
+}
+
+/* Extra Small Screens (576px to 767px) */
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .nav-left, .nav-right {
+        display: none;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .pasta-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .order-cta {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .order-cta .btn {
+        width: 100%;
+    }
+}
+
+/* Mobile Screens (up to 575px) */
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0 var(--space-sm);
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-description {
+        font-size: 1rem;
+    }
+    
+    .pasta-image, .cooking-image {
+        height: 300px;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+    }
+}
+
+/* Header height adjustments for small screens */
+@media screen and (max-width: 767px) {
+    :root {
+        --header-height: 60px;
+    }
+    
+    .logo {
+        height: 40px;
+    }
+    
+    .section {
+        padding: var(--space-xl) 0;
+    }
+}

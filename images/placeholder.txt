@@ -1,0 +1,7 @@
+This folder will contain the following images:
+- hero.jpg (A high-quality image of fresh pasta as the hero background)
+- pasta-making.jpg (Image showing the pasta making process)
+- cooking-class.jpg (Image of people participating in a cooking class)
+- logo.svg (The i Matterelli logo)
+
+In a real implementation, you would add these actual image files to this directory.

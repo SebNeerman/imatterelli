@@ -1,0 +1,6 @@
+This folder will contain the following font files:
+- avenir.woff2 (Regular weight of Avenir font)
+- avenir-bold.woff2 (Bold weight of Avenir font)
+- bugatti.woff2 (Bugatti font for display text)
+
+In a real implementation, you would add these actual font files to this directory.

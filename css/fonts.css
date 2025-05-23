@@ -1,0 +1,24 @@
+/* Font definitions */
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bugatti';
+    src: url('../fonts/bugatti.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

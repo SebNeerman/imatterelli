@@ -1,0 +1,9 @@
+<!-- This is a placeholder for the logo.svg file. In a real implementation, you would use the provided logo file. -->
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="30" font-family="Bugatti, serif" font-size="24" fill="#884700">
+    i Matterelli
+  </text>
+  <text x="30" y="45" font-family="Avenir, sans-serif" font-size="12" fill="#F2AE00">
+    PASTA FRESCA
+  </text>
+</svg>
