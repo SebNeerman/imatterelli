@@ -7,11 +7,12 @@
     }
     
     .hero-title {
-        font-size: 3.5rem;
+        font-size: 4rem;
+        line-height: 2;
     }
     
     .section-title {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 }
 
