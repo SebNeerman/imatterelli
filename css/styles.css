@@ -4,6 +4,7 @@
     --primary-color: #884700;  	/* Dark amber */
     --secondary-color: #F2AE00; /* Amber yellow */
     --green: #79BB00;   		/* Green */
+    --dark-green: #598900;   		/* Green */
     --hero: #FFDA1A;		/* Hero green */
     --yellow-pasta: #F2AE00;	/* Yellow pasta */
     --background-color: #000000; /* Black */
@@ -137,14 +138,14 @@ ul {
     color: var(--light-text);
 }
 
-.secondary-btn {
-    background-color: var(--primary-color);
+.green-btn {
+    background-color: var(--dark-green);
     color: var(--black);
 }
 
-.secondary-btn:hover {
-    background-color: var(--secondary-color);
-    color: var(--text-color);
+.green-btn:hover {
+    background-color: var(--green);
+    color: var(--black);
 }
 
 /* Header and Navigation */
@@ -579,6 +580,7 @@ ul {
     color: var(--black);
     font-weight: bold;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .hours h3 {
