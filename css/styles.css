@@ -576,7 +576,7 @@ ul {
 .map-link {
     display: inline-block;
     margin-top: var(--space-xs);
-    color: var(--primary-color);
+    color: var(--black);
     font-weight: bold;
     margin-bottom: 20px;
 }
