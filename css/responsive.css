@@ -8,7 +8,7 @@
     
     .hero-title {
         font-size: 4rem;
-        line-height: 2;
+        line-height: 2.2;
     }
     
     .section-title {
@@ -23,11 +23,13 @@
     }
     
     .hero-title {
-        font-size: 2.8rem;
+        font-size:3.2rem;
+        line-height: 2;
+        
     }
     
     .section-title {
-        font-size: 2.3rem;
+        font-size: 3.5rem;
     }
     
     .content-wrapper {
@@ -42,7 +44,7 @@
     }
     
     .hero-title {
-        font-size: 2.5rem;
+        font-size:3.2rem;
     }
     
     .content-wrapper {
@@ -108,11 +110,9 @@
     }
     
     .hero-title {
-        font-size: 2.2rem;
     }
     
     .section-title {
-        font-size: 2rem;
     }
     
     .pasta-list {
@@ -137,11 +137,11 @@
     }
     
     .hero-title {
-        font-size: 1.8rem;
+        font-size:3rem;
     }
     
     .section-title {
-        font-size: 1.8rem;
+        font-size: 3rem;
     }
     
     .section-description {
