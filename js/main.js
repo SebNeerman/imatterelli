@@ -6,9 +6,18 @@ const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
 const languageBtns = document.querySelectorAll('.lang-btn');
 const mobileLangBtns = document.querySelectorAll('.mobile-lang-btn');
 const sections = document.querySelectorAll('.section');
+const copyrightYear = document.querySelector('.copyright-year');
+
 
 // Current language (default: Italian)
 let currentLang = 'it';
+
+// Update copyright year
+function updateCopyrightYear() {
+    if (copyrightYear) {
+        copyrightYear.textContent = new Date().getFullYear();
+    }
+}
 
 // Handle header transparency on scroll
 function handleHeaderTransparency() {

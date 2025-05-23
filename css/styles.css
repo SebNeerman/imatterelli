@@ -73,7 +73,7 @@ h1, h2, h3 {
 .pasta-types h3, 
 .class-column h3,
 .hours h3 {
-
+	margin-top: 3rem;
 }
 
 img {
@@ -419,6 +419,7 @@ ul {
     position: relative;
 }
 
+/* 
 .section-title::after {
     content: '';
     position: absolute;
@@ -429,6 +430,7 @@ ul {
     height: 3px;
     background-color: var(--secondary-color);
 }
+ */
 
 .section-description {
     font-size: 1.5rem;
@@ -460,6 +462,7 @@ ul {
 .pasta-image, .cooking-image {
     flex: 1;
     position: relative;
+    margin-bottom: auto;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: var(--box-shadow);
@@ -469,13 +472,8 @@ ul {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.5s ease;
 }
 
-.pasta-image:hover .pasta-img,
-.cooking-image:hover .cooking-img {
-    transform: scale(1.05);
-}
 
 .pasta-types h3 {
     font-family: var(--font-display);
@@ -648,8 +646,8 @@ ul {
     justify-content: space-between;
 }
 
-.footer-logo-img {
-    height: 50px;
+.footer-logo svg {
+    height: 60px;
 }
 
 .footer-info {
@@ -686,9 +684,11 @@ ul {
     }
 }
 
+/* 
 .fade-in {
     animation: fadeIn 0.8s ease forwards;
 }
+ */
 
 /* Utility Classes */
 .hidden {
