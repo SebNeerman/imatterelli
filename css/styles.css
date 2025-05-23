@@ -73,7 +73,15 @@ h1, h2, h3 {
 .pasta-types h3, 
 .class-column h3,
 .hours h3 {
+    font-family: var(--font-body);
+    font-weight: bold;
+    color: var(--green);
+    font-size: 1.8rem;
 	margin-top: 3rem;
+}
+
+.hours h3 {
+	margin-top: 0;
 }
 
 img {
@@ -441,8 +449,9 @@ ul {
 .pasta-list,
 .class-details,
 .hours ul {
-	font-size: 1.5rem;
+	font-size: 1.15rem;
 }
+
 
 .content-wrapper {
     display: flex;
@@ -476,8 +485,6 @@ ul {
 
 
 .pasta-types h3 {
-    font-family: var(--font-display);
-    color: var(--primary-color);
     margin-bottom: var(--space-sm);
 }
 
@@ -511,8 +518,6 @@ ul {
 }
 
 .class-column h3 {
-    font-family: var(--font-display);
-    color: var(--primary-color);
     margin-bottom: var(--space-sm);
 }
 
@@ -552,7 +557,8 @@ ul {
 }
 
 .address p {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+    margin-top: 2rem;
     margin-bottom: var(--space-md);
 }
 
@@ -565,13 +571,19 @@ ul {
 }
 
 .hours h3 {
-    font-family: var(--font-display);
-    color: var(--primary-color);
     margin-bottom: var(--space-sm);
+}
+
+.hours ul {
+	position:relative;
 }
 
 .hours ul li {
     margin-bottom: var(--space-xs);
+}
+
+.hours ul li span {
+	float:right;
 }
 
 .map-container {
@@ -601,7 +613,7 @@ ul {
 }
 
 .contact-text {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-bottom: var(--space-md);
 }
 
