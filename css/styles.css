@@ -128,22 +128,22 @@ ul {
 }
 
 .primary-btn {
+    background-color: var(--secondary-color);
+    color: var(--black);
+}
+
+.primary-btn:hover {
     background-color: var(--primary-color);
     color: var(--light-text);
 }
 
-.primary-btn:hover {
-    background-color: #6a3700;
-    color: var(--light-text);
-}
-
 .secondary-btn {
-    background-color: var(--secondary-color);
-    color: var(--text-color);
+    background-color: var(--primary-color);
+    color: var(--black);
 }
 
 .secondary-btn:hover {
-    background-color: #d49c00;
+    background-color: var(--secondary-color);
     color: var(--text-color);
 }
 
