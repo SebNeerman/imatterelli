@@ -48,8 +48,8 @@
     	width: 120px;
 	}
 	.nav-right {
-margin-top: -7px;
-}
+		margin-top: -7px;
+	}
     
     .hero-title {
         font-size:3.2rem;
@@ -105,7 +105,9 @@ margin-top: -7px;
     
     .footer-info {
         margin-bottom: var(--space-md);
+        text-align: center;
     }
+
 }
 
 /* Extra Small Screens (576px to 767px) */
@@ -145,6 +147,7 @@ margin-top: -7px;
     .map-container {
         flex: none;
     }
+    
 }
 
 /* Mobile Screens (up to 575px) */
