@@ -44,11 +44,15 @@
     }
     
     .logo-container a svg {
-		margin: 10px 0 30px 0;
+		margin: 18px 0 30px 0;
     	width: 120px;
 	}
 	.nav-right {
 		margin-top: -7px;
+	}
+	
+	.language-switch {
+		margin-top: -22px;
 	}
     
     .hero-title {
@@ -119,6 +123,7 @@
     .nav-left, .nav-right {
         display: none;
     }
+
     
     .mobile-menu-btn {
         display: block;
@@ -191,6 +196,11 @@
     .logo {
         height: 40px;
     }
+    
+    
+    .logo-container a svg {
+		margin: 10px 0 30px 0;
+	}    
     
     .section {
         padding: var(--space-xl) 0;
