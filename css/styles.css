@@ -118,14 +118,13 @@ ul {
     display: block;
     padding: var(--space-xs) var(--space-lg);
     border-radius: var(--border-radius);
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     cursor: pointer;
     transition: all var(--transition-speed) ease;
     border: none;
     font-family: var(--font-body);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-size: 1.4rem;
 }
 
 .primary-btn {
