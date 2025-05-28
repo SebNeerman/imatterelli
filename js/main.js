@@ -193,8 +193,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // Load images for performance
 function preloadImages() {
     const imageUrls = [
-        'images/pasta.reginette.matterelli.jpg',
-        'images/Toscana-Wheat-Grani-Antichi.png',
+        'images/pasta.reginette.matterelli.webp',
+        'images/Toscana-Wheat-Grani-Antichi.webp',
         'images/Ravioli_fatti_in_casa.jpg',
         'images/Pici-pasta.jpg',
         'images/Ravioli-Ragu.jpg	'
