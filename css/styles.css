@@ -657,10 +657,12 @@ ul {
 
 .map-container .montespertoli {
 	position: absolute;
-	top: 52%;
-	left: 65%;
+	top: 58%;
+	left: 58%;
 	color: #000000;
-	font-size: 1.5rem;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .map-container svg {
@@ -671,6 +673,21 @@ ul {
 	fill: var(--yellow-pasta);
 	stroke: #000;
 	stroke-width: 0.5px;
+}
+
+.map-container .imatterelli {
+	position: absolute;
+	top: 35%;
+	left: 48%;
+	font-family: var(--font-engraved);
+	color: #000000;
+	font-size: 1.9rem;
+}
+
+
+.map-container .imatterelli span {
+	font-size: 1.4rem;
+	text-transform: uppercase;
 }
 
 .google-map {
