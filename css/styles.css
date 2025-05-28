@@ -1017,4 +1017,11 @@ ul {
     .section {
         padding: var(--space-xl) 0;
     }
+    .address-container {
+    	padding: 0;
+		margin-bottom: 0;
+		}
+    .location-wrapper {
+    	gap: var(--space-sm);
+    }
 }
