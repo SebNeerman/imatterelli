@@ -614,9 +614,10 @@ ul {
     display: inline-block;
     margin-top: var(--space-xs);
     color: var(--black);
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 20px;
     width: 100%;
+    font-size: 1.2rem;
 }
 
 .hours h3 {
@@ -638,9 +639,37 @@ ul {
 .map-container {
     flex: 2;
     height: 400px;
+    width: 100%;
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: var(--box-shadow);
+    position: relative;
+    background-image: url(../images/Map-Mattarelli.png);
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 991px) {
+	.map-container {
+		flex: none;
+	}
+}
+
+.map-container .montespertoli {
+	position: absolute;
+	top: 55%;
+	left: 65%;
+	color: #000000;
+	font-size: 1.5rem;
+}
+
+.map-container svg {
+	position: absolute;
+	top: 45%;
+	left: 57%;
+	width: 32px;
+	fill: var(--yellow-pasta);
+	stroke: #000;
 }
 
 .google-map {
