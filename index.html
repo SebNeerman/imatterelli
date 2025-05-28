@@ -7,7 +7,7 @@
     <title>i Matterelli | Pasta Fresca Toscana, Fresh Pasta Montespertoli</title>
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="i Matterelli - Pasta Fresca Artigianale Toscana">
-    <meta property="og:description" content="Pasta artigianale con farina di Grani Antichi di Montespertoli e farine toscane">
+    <meta property="og:description" content="Pasta artigianale con farina di Grani Antichi di Montespertoli e farine toscane. Artisanal pasta made with Montespertoli Heritage Wheat and Tuscan flours.">
     <meta property="og:image" content="images/Matterelli-logo-meta.png">
     <meta property="og:url" content="https://wwww.imatterelli.it">
     <meta property="og:type" content="website">
@@ -44,11 +44,16 @@
       "@type": "FoodEstablishment",
       "name": "i Matterelli",
       "image": "../images/Matterelli-logo-meta.png",
-      "description": "Pasta artigianale con farina di Grani Antichi di Montespertoli e farine toscane",
+      "description": "Pasta artigianale con farina di Grani Antichi di Montespertoli e farine toscane. Artisanal pasta made with Montespertoli Heritage Wheat and Tuscan flours.",
       "@id": "https://www.imatterelli.it",
       "url": "https://www.imatterelli.it",
       "telephone": "+39 392 639 2111",
       "email": "imatterelli@gmail.com",
+      "availableLanguage": {
+		  "@type": "Language",
+		  "name": "English",
+		  "alternateName": "en"
+	  },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Via T. Taddeini 64",
@@ -64,43 +69,25 @@
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Tuesday", "Thursday", "Friday"],
+          "dayOfWeek": ["Tuesday", "Thursday", "Friday", "Saturday", "Sunday",],
           "opens": "08:00",
           "closes": "14:00"
         },
        	{
        	  "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Tuesday", "Thursday", "Friday"],
+          "dayOfWeek": ["Thursday", "Friday", "Saturday"],
           "opens": "17:00",
           "closes": "19:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "08:00",
-          "closes": "14:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday",
-          "opens": "17:00",
-          "closes": "19:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday",
-          "opens": "08:00",
-          "closes": "14:00"
         }
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Pasta Courses",
+        "name": "Private Pasta Making and Cookery Classes",
         "itemListElement": [
           {
             "@type": "Course",
             "name": "Pasta Making Class",
-            "description": "Three hour morning courses include lunching with the fresh pasta made",
+            "description": "Learn how to make fresh pasta, tortelli and different sauces with two master chefs. Our morning course is held in the shop lab in Montespertoli. The lesson lasts 3 hours and includes lunch with what you have created along with local products.",
             "provider": {
               "@type": "Organization",
               "name": "i Matterelli",
@@ -348,16 +335,6 @@
                        data-en="To order fresh pasta or book a cooking class.">
                        Per ordinare la pasta fresca.
                     </p>
-                    <!--
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <a href="tel:+393926392111" class="contact-link">+39 392 639 2111</a>
-                        </div>
-                        <div class="contact-item">
-                            <a href="mailto:imatterelli@gmail.com" class="contact-link">imatterelli@gmail.com</a>
-                        </div>
-                    </div>
-                    -->
                 </div>
                 <div class="order-cta">
                     <a href="tel:+393926392111" class="btn green-btn">
@@ -422,8 +399,7 @@
                     <a href="#" class="social-link">Instagram</a>
                     <a href="#" class="social-link">Facebook</a>                    
                 </div>
-                --> 
-               
+                -->                
             </div>
         </div>
     </footer>
