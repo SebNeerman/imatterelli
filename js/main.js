@@ -193,10 +193,11 @@ document.addEventListener('DOMContentLoaded', () => {
 // Load images for performance
 function preloadImages() {
     const imageUrls = [
-        'images/hero.jpg',
-        'images/pasta-making.jpg',
-        'images/cooking-class.jpg',
-        'images/logo.svg'
+        'images/pasta.reginette.matterelli.jpg',
+        'images/Toscana-Wheat-Grani-Antichi.png',
+        'images/Ravioli_fatti_in_casa.jpg',
+        'images/Pici-pasta.jpg',
+        'images/Ravioli-Ragu.jpg	'
     ];
     
     imageUrls.forEach(url => {
