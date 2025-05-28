@@ -1,3 +1,37 @@
+/* Font definitions */
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTStd-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTStd-Heavy.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bugatti';
+    src: url('../fonts/Bulgatti.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Engraved';
+    src: url('../fonts/AcademyEngravedLetPlain.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* Base styles and variables */
 :root {
     /* Color system */
@@ -726,4 +760,214 @@ ul {
 
 .text-center {
     text-align: center;
+}
+
+
+/* Responsive Styles */
+
+/* Large Screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    .container {
+        padding: 0 var(--space-lg);
+    }
+    
+    .hero-title {
+        font-size: 4rem;
+        line-height: 2.2;
+    }
+    
+    .section-title {
+        font-size: 3.5rem;
+    }
+}
+
+/* Medium Screens (992px to 1199px) */
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .hero-title {
+        font-size: 4rem;
+        line-height: 2.2;
+        
+    }
+    
+    .section-title {
+        font-size: 3.5rem;
+    }
+    
+    .content-wrapper {
+        gap: var(--space-lg);
+    }
+}
+
+/* Small Screens (768px to 991px) */
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .logo-container a svg {
+		margin: 18px 0 30px 0;
+    	width: 120px;
+	}
+	.nav-right {
+		margin-top: -7px;
+	}
+	
+	.language-switch {
+		margin-top: -22px;
+	}
+    
+    .hero-title {
+        font-size:3.2rem;
+    }
+    
+	.pasta-types h3, 
+	.class-column h3,
+	.hours h3 {
+		font-size: 1.4rem;
+	}    
+    .content-wrapper {
+        flex-direction: column;
+    }
+    
+    .content-wrapper.reversed {
+        flex-direction: column;
+    }
+    
+    .text-content {
+        margin-bottom: var(--space-lg);
+    }
+    
+    .pasta-image, .cooking-image {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .pasta-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .class-details {
+        /* flex-direction: column; */
+        gap: var(--space-md);
+    }
+    
+    .location-wrapper {
+        flex-direction: column;
+    }
+    
+    .address-container {
+        margin-bottom: var(--space-lg);
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: var(--space-lg);
+    }
+    
+    .footer-logo {
+        margin-bottom: var(--space-md);
+    }
+    
+    .footer-info {
+        margin-bottom: var(--space-md);
+        text-align: center;
+    }
+
+}
+
+/* Extra Small Screens (576px to 767px) */
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .nav-left, .nav-right {
+        display: none;
+    }
+
+    
+    .mobile-menu-btn {
+        display: block;
+        margin-top: -20px;
+    }
+    
+    .hero-title {
+    }
+    
+    .section-title {
+    }
+    
+    .pasta-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .order-cta {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .order-cta .btn {
+        width: 100%;
+    }
+    
+    .map-container {
+        flex: none;
+    }
+    
+}
+
+/* Mobile Screens (up to 575px) */
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+        padding: 0 var(--space-sm);
+    }
+    
+    .hero-title {
+        font-size:3rem;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+    }
+    
+    .section-description {
+        font-size: 1.4rem;
+    }
+    
+    .pasta-image, .cooking-image {
+        height: 300px;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+    }
+    
+    .map-container {
+        flex: none;
+    }
+}
+
+/* Header height adjustments for small screens */
+@media screen and (max-width: 767px) {
+    :root {
+        --header-height: 60px;
+    }
+    
+    .logo {
+        height: 40px;
+    }
+    
+    
+    .logo-container a svg {
+		margin: 10px 0 30px 0;
+	}    
+    
+    .section {
+        padding: var(--space-xl) 0;
+    }
 }
