@@ -415,7 +415,7 @@ ul {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url('../images/pasta.reginette.matterelli.jpg');
+    background-image: url('../images/pasta.reginette.matterelli.webp');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -643,7 +643,7 @@ ul {
     border-radius: 8px;
     box-shadow: var(--box-shadow);
     position: relative;
-    background-image: url(../images/Map-Mattarelli.png);
+    background-image: url(../images/Map-Mattarelli.webp);
     background-repeat: no-repeat;
     background-size: contain, cover;
     background-position: center;
