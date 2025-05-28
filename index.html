@@ -49,18 +49,28 @@
       "logo" : {
 		  "@type": "ImageObject",
 		  "name": "i Matterelli",
-		  "contentUrl" : "../images/Matterelli-logo-meta.png"
+		  "contentUrl" : "images/Matterelli-logo-meta.png",
+		  "url" : "images/Matterelli-logo-meta.png"
 	  },
-	  "photo" : {
+	  "image" : {
 		  "@type": "ImageObject",
 		  "name": "i Matterelli – Pasta",
-		  "contentUrl" : "images/pasta.reginette.matterelli.jpg"
+		  "contentUrl" : "images/pasta.reginette.matterelli.jpg",
+		  "url" : "images/pasta.reginette.matterelli.jpg"
 	  },
-      "knowsLanguage": {
+	  "servesCuisine" : "Italian",
+      "knowsLanguage": [
+      	{
+		  "@type": "Language",
+		  "name": "Italian",
+		  "alternateName": "it"
+	  	},
+      	{
 		  "@type": "Language",
 		  "name": "English",
 		  "alternateName": "en"
-	  },
+	  	}
+	  ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Via T. Taddeini 64",
@@ -99,12 +109,38 @@
           {
             "@type": "Course",
             "name": "Pasta Making and Cookery Classes",
-            "about": "Learn how to make fresh pasta, tortelli and different sauces with two master chefs. Our morning course is held in the shop lab in Montespertoli. The lesson lasts 3 hours and includes lunch with what you have created along with local products.",
-             "availableLanguage": {
-				  "@type": "Language",
-				  "name": "English",
-				  "alternateName": "en"
-			 },
+            "description": "Learn how to make fresh pasta, tortelli and different sauces with two master chefs. Our morning private class is held in the shop lab in Montespertoli. The lesson lasts 3 hours and includes lunch with what you have created along with local products.",
+            "hasCourseInstance" : {
+            	"@type": "CourseInstance",
+			    "courseMode": ["onsite","part-time"],
+			    "courseWorkload" : "PT3H",
+			    "instructor" : "Manuel Pintore",
+			    "maximumAttendeeCapacity" : 5,
+			    "typicalAgeRange" : "12-99",
+			    "duration" : "3 hours",			   
+			    "inLanguage": [
+					{
+							"@type": "Language",
+							"name": "Italian"
+					},
+					{
+							"@type": "Language",
+							"name": "English"
+					}
+				]
+			 }, 
+		 	"offers": {
+				"@type": "Offer",
+				"category" : "Cookery class",
+				"price": "60",
+				"priceCurrency": "EUR"
+			},
+			"image" : {
+				"@type": "ImageObject",
+				"name": "i Matterelli – Pasta",
+				"contentUrl" : "images/images/Ravioli_fatti_in_casa.jpg",
+				"url" : "images/images/Ravioli_fatti_in_casa.jpg"
+			},         
             "provider": {
               "@type": "Organization",
               "name": "i Matterelli",
@@ -116,10 +152,29 @@
       "makesOffer": [
         {
           "@type": "Offer",
+          "availability": "https://schema.org/InStock",
           "itemOffered": {
             "@type": "Product",
             "name": "Fresh Pasta",
-            "description": "Artisanal pasta made with ancient grain flour from Montespertoli"
+            "description": "Artisanal pasta made with ancient grain flour from Montespertoli",
+			"image" : {
+				"@type": "ImageObject",
+				"name": "i Matterelli – Pasta",
+				"contentUrl" : "images/pasta.reginette.matterelli.jpg",
+				"url" : "images/pasta.reginette.matterelli.jpg"
+			},
+            "offers": {
+				"@type": "Offer",
+				"category" : "Cookery class",
+				"availability": "https://schema.org/InStock",
+				"priceSpecification": {
+					"@type": "PriceSpecification",
+					"price": "1.80",
+					"minPrice": "1.80",
+					"maxPrice": "40",
+					"priceCurrency": "EUR"
+				}
+			}
           }
         }
       ]
