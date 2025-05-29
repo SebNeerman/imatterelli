@@ -431,6 +431,14 @@ ul {
 }
 
 /* Hero Section */
+
+
+@media screen and (max-width: 575px) {
+	.hero {
+		background-image: url('../images/pasta.reginette.matterelli-mob.webp');
+	}	
+}
+
 .hero {
     height: 100vh;
     background-image: url('../images/pasta.reginette.matterelli.webp');
@@ -444,11 +452,6 @@ ul {
     padding-top: var(--header-height);
 }
 
-@media screen and (max-width: 575px) {
-	.hero {
-		background-image: url('../images/pasta.reginette.matterelli-mob.webp');
-	}	
-}
 
 .hero::before {
     content: '';
