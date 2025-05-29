@@ -435,6 +435,12 @@ ul {
     padding-top: var(--header-height);
 }
 
+@media screen and (max-width: 575px) {
+	.hero {
+		background-image: url('../images/pasta.reginette.matterelli-mob.webp');
+	}	
+}
+
 .hero::before {
     content: '';
     position: absolute;
