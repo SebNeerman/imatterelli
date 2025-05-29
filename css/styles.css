@@ -136,6 +136,15 @@ a:hover {
     color: var(--secondary-color);
 }
 
+a.inline-link {
+	color: var(--yellow-pasta);
+    border-bottom: dotted 1px;
+}
+
+a.inline-link:hover {
+	color: var(--green);
+}
+
 ul {
     list-style: none;
 }
