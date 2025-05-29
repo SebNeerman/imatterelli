@@ -190,21 +190,3 @@ document.addEventListener('DOMContentLoaded', () => {
     switchLanguage('it');
 });
 
-// Load images for performance
-function preloadImages() {
-    const imageUrls = [
-        'images/pasta.reginette.matterelli.webp',
-        'images/Toscana-Wheat-Grani-Antichi.webp',
-        'images/Ravioli_fatti_in_casa.jpg',
-        'images/Pici-pasta.jpg',
-        'images/Ravioli-Ragu.jpg	'
-    ];
-    
-    imageUrls.forEach(url => {
-        const img = new Image();
-        img.src = url;
-    });
-}
-
-// Preload images
-preloadImages();
