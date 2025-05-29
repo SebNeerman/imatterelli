@@ -120,6 +120,15 @@ h1, h2, h3 {
 	margin-top: 0;
 }
 
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+
 img {
     max-width: 100%;
     height: auto;

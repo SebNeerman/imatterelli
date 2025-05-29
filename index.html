@@ -43,7 +43,8 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#000000">    
     
-    <link rel="stylesheet" type="text/css" href="css/styles.css" crossorigin>
+    <script async type="text/javascript" src="./js/lazysizes.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     
  	<!-- JSON-LD Schema -->
     <script type="application/ld+json">
@@ -299,7 +300,9 @@
                     </div>
                 </div>
                 <div class="pasta-image">
-                    <img src="./images/Toscana-Wheat-Grani-Antichi.webp" alt="Tuscan and HeritageWheat – Grani Antichi di Montespertoli" class="pasta-img">
+                    <img data-src="./images/Toscana-Wheat-Grani-Antichi.webp"
+                    	alt="Tuscan and HeritageWheat – Grani Antichi di Montespertoli" 
+                    	class="lazyload pasta-img">
                 </div>
             </div>
         </div>
@@ -345,11 +348,17 @@
                     </div>
                 </div>
                 <div class="cooking-image" style="clear: both;">
-                    <img src="./images/Ravioli_fatti_in_casa.webp" alt="Pasta cooking class" class="cooking-img">
+                    <img data-src="./images/Ravioli_fatti_in_casa.webp" 
+                    	alt="Pasta cooking class" 
+                    	class="lazyload cooking-img">
                     <img style="float: left; display: inline-block; margin: 20px 0 0 0; width: 48%;" 
-                    	src="./images/Pici-pasta.jpg" alt="Pasta cooking class" class="cooking-img">
+                    	data-src="./images/Pici-pasta.jpg" 
+                    	alt="Pasta cooking class" 
+                    	class="lazyload cooking-img">
                     <img style="float: right; margin: 20px 0 0 0; width: 48%; display: inline-block;" 
-                    	src="./images/Ravioli-Ragu.jpg" alt="Pasta cooking class" class="cooking-img">
+                    	data-src="./images/Ravioli-Ragu.jpg" 
+                    	alt="Pasta cooking class" 
+                    	class="lazyload cooking-img">
                     
                 </div>
             </div>
@@ -397,7 +406,7 @@
                     </div>
                     <div class="address">
                         <p>Via T. Taddeini 64, Montespertoli (FI)</p>
-                        <a class="btn primary-btn map-link" 
+                        <a class="lazyload btn primary-btn map-link" 
                         	href="https://maps.app.goo.gl/P51wys5Y7DmCg1c79" 
                         	title="i Matterelli on Google Maps"
                         	target="_blank">
@@ -503,7 +512,7 @@
         </div>
     </footer>
 
-    <script async type="text/javascript" src="js/main.js" crossorigin></script>
+    <script async type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
 
