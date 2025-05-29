@@ -789,10 +789,27 @@ ul {
 .footer-info {
     text-align: right;
     font-size: 0.9rem;
+    line-height: 0.8rem;
 }
 
 .footer-info p {
     margin-bottom: var(--space-xs);
+}
+
+a.ecoWebsite {
+	color: var(--green);
+}
+
+a.ecoWebsite svg {
+	display: inline-block;
+	margin: 0px 5px -5px 0;
+	width: 20px; 
+}
+
+a.ecoWebsite:hover,
+a.ecoWebsite:hover svg {
+	color: var(--yellow-pasta);
+	fill: var(--yellow-pasta) !important;
 }
 
 .footer-social {
